@@ -1,0 +1,698 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	position: relative;
+}
+
+p {
+	font-size: 24px;
+}
+
+section {
+	position: relative;
+}
+nav {
+	z-index:9999;
+	opacity: 0.9;
+}
+
+.regular-header {
+	margin:0 0 60px;
+	text-transform: uppercase;
+	font-family: 'Noto Sans',sans-serif;
+	font-weight: 700;
+	font-size: 200px;
+	text-align: left;
+	position:absolute;
+	top:70px;
+	opacity:0.4;
+	line-height: 135px;
+}
+
+.section-description {
+	margin-bottom: 40px;
+	margin-left:auto;
+	margin-right: auto;
+	max-width: 800px;
+	opacity: 0.9;
+	text-align: right;
+	font-size: 25px;
+	padding:5px;
+}
+
+.navbar-inverse {
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+}
+
+.navbar-collapse.in, .navbar-collapse.collapsing {
+	background-color: #000;
+}
+
+.navbar-brand {
+	height: 55px;
+	padding: 5px;
+}
+
+.navbar-brand img {
+	width:150px;
+}
+
+.navbar-nav a {
+	color: #fff;
+	transition: color 0.5s;
+	font-size: 18px;
+	font-weight: 800;
+	text-transform: uppercase;;
+}
+
+.navbar-nav>li>a {
+	line-height: 45px;
+}
+
+.navbar li a:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+.navbar-toggle .icon-bar {
+	height: 4px;
+	width: 30px;
+	border-radius: 0;
+}
+
+.navbar-toggle {
+	background-color: #000;
+	border: 0;
+	border-radius: 0;
+}
+
+.nav>li.home>a {
+	display: none;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+	max-height: inherit;
+}
+
+.thumbnail {
+	border: none;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+.hidden {
+	clip: rect(0px,0px,0px,0px);
+}
+
+
+
+/* SECTION 1: WELCOME */
+
+section {
+	position: relative;
+	overflow: hidden;
+}
+
+#home {
+}
+
+#carousel img {
+	width: 100% ;
+}
+
+.carousel-caption {
+	left:initial;
+	right:50px;
+	text-align: right;
+	padding: 10px 10px 30px;
+	bottom:175px;
+}
+
+.carousel-caption h3 {
+	margin: 0 30px 10px 0;
+	font-weight: 800;
+
+}
+
+.carousel-caption h3 span {
+	background-color: #333;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+.carousel-caption p {
+	background-color: #fff;
+	color:#222;
+	padding: 0 20px;
+}
+
+.carousel-indicators {
+	padding: 0 10px;
+	bottom: 180px;
+	width: initial;
+	right: 50px;
+	left:initial;
+}
+
+.carousel-indicators li {
+		border-radius: 0;
+}
+
+.mobileImg {
+	display: none;
+	width: 100%;
+}
+
+.welcome-info {
+	color: #000;
+	position: absolute;
+	width: 700px;
+	left: 25% ;
+	margin-left: -15%;
+	top: 20%;
+	z-index: 2222;
+	text-align: center;
+    /* Fallback for web browsers that doesn't support RGBa */
+    background: rgb(255,255,255);
+    /* RGBa with 0.6 opacity */
+    background: rgba(255,255,255,0.8);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    padding:50px;
+}
+
+.welcome-info h2 {
+	font-weight: 800;
+}
+
+.welcome-info-wrapper {
+	}
+
+.welcome-info-container {
+}
+
+}
+
+.welcome-info img {
+	margin: 0px 0 30px;
+}
+
+.welcome-info h2 {
+	font-size: 40px;
+	margin-bottom: 20px;
+
+}
+
+.welcome-info p {
+}
+
+.welcome-info ul {
+	margin-top: 40px;
+
+}
+
+.welcome-info li {
+	margin: 5px 0;
+}
+
+.welcome-info li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 800;
+	color: #000;
+	display: block;
+	padding: 10px 0;
+	transition: all 0.5s;
+}
+
+.welcome-info li a:hover {
+	background-color: #222;
+	color:#fff;
+}
+
+
+
+/* SECTION 2: OFERTA */
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(-2px) scale(3);
+}
+
+.parallax__layer--back {
+  transform: translateZ(-1px) scale(2);
+  background-image: url('../img/back2.png');
+}
+
+
+#oferta {
+
+	color:#fff;
+	padding:120px 0 90px;
+}
+
+#oferta .regular-header {
+	left:50px;
+}
+
+#oferta .top-subsection {
+	margin-top: 160px;
+}
+
+#oferta section {
+	margin: 0 auto 5	0px;
+}
+
+#oferta img {
+	margin:0 auto;
+	width:159px;
+	display: block;
+	margin-bottom: 20px;
+}
+#oferta .row {
+	margin: 20px auto 60px;
+	max-width: 800px;
+}
+
+#oferta .thumbnail {
+	padding: 10px 30px 10px 30px;
+}
+
+#gallery img {
+	width: 400px;
+}
+
+#partners .row{
+	max-width: initial;
+}
+
+.partner-logo {
+
+	line-height: 130px;
+}
+
+#partners img {
+	margin: 0;
+	display: inline;
+	width:80%;
+}
+
+.subsection-header {
+	width: 100%;
+	margin: 0 auto 20px;
+	text-transform: uppercase;
+	font-size: 60px;
+	text-align: right;
+}
+
+
+
+
+/* SECTION 3: REALIZACJE, SECTION 4: PROJEKTY;  */
+
+#realizacje {
+	margin-top: 5px;
+	margin-bottom: 0;
+	background-color: #fefefe;
+	border-bottom: 1px solid #ccc;
+}
+
+#realizacje .regular-header {
+	right: 70px;
+}
+
+#projekty .regular-header {
+	left: 70px;
+}
+
+#projekty .container, #realizacje .container{
+	margin: 310px auto 100px;
+	padding:0;
+}
+#projekty .row, #realizacje .row, {
+	background-color: transparent;
+}
+
+#projekty {
+
+}
+
+.tile {
+	background-color: transparent;
+	padding-right: 25px;
+	padding-left:0;
+	margin-bottom: 25px;
+}
+
+.tile img {
+	width: 100%;
+}
+
+.title-tile {
+}
+
+.title-tile-inside {
+	position: relative;
+}
+
+.title-tile h2 {
+	position: absolute;
+
+	margin: -20px auto 0;
+	text-align: center;
+	font-size: 80px;
+	color: #bbb;
+
+	text-transform: uppercase;
+	font-family: 'Noto Sans',sans-serif;
+		font-weight: 700;
+}
+.title-tile-left h2 {
+	left: 0px;
+
+	top:10px;
+}
+
+.title-tile-right h2 {
+	right: 5px;
+		bottom:0;
+
+}
+
+/* SECTION 5: CONTACT */
+
+#kontakt {
+	background-color: #333;
+	color: #eee;
+}
+
+#kontakt h2 {
+	right:70px;
+}
+
+#kontakt .regular-header {
+	color: #707070;
+	opacity:1;
+}
+
+.kontakt-wrapper {
+	margin: 270px auto 40px;
+	overflow: auto;
+}
+
+.kontakt-info-sub {
+	margin-bottom: 40px;
+}
+
+.kontakt-info-sub-first h3 {
+	margin-top: 0;
+}
+
+.kontakt-info-sub-last {
+	margin-bottom: 0;
+}
+
+.kontakt-info-sub h3{
+	text-transform: uppercase;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+
+.kontakt-info-sub h4 {
+	font-weight: bold;
+}
+
+#googleMap {
+	margin-bottom: 40px;
+    width: 100%; /* Span the entire width of the screen */
+    height: 300px; /* Set the height to 400 pixels */
+}
+
+.kontakt-form {
+}
+
+.kontakt-form-title {
+	font-size: 30px;
+	margin-bottom: 30px;
+	font-weight: 800;
+}
+
+.form-control {
+	border-radius: 0;
+}
+
+#kontakt .btn {
+	border-radius: 0;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #111;
+	padding:30px 0;
+	color:#fff;
+}
+
+.copyright {
+	line-height: 30px;
+}
+
+
+.footer-social {
+	overflow: auto;
+}
+.social-icon {
+	width:30px;
+	display: inline-block;
+	float: right;
+	margin-right: 20px;
+}
+
+.social-icon img {
+	width:100%;
+}
+
+@media (min-width:1050px) and (max-width: 1200px) {
+	.regular-header {
+		font-size: 160px;
+	}
+}
+
+@media (min-width:768px) and (max-width: 1049px) {
+	.regular-header {
+		font-size: 120px;
+	}
+}
+
+@media (max-width:1024px) {
+	.welcome-info {
+		top:70px;
+		left:50%;
+		margin-left: -350px;
+		width:700px;
+	}
+
+	.welcome-info .welcome-info-logo {
+		margin-bottom:20px;
+		width: 170px;
+		height:auto;
+	}
+
+	.welcome-info h2 {
+		font-size:25px;
+		margin-bottom: 10px;
+	}
+
+	.welcome-info p {
+		font-size:20px;
+	}
+	.welcome-info ul {
+		margin: 0 auto;
+		text-align: center;
+
+	}
+
+	.welcome-info ul li {
+		display: inline;
+	}
+
+	.welcome-info ul a {
+		font-size: 25px;
+		margin:5px;
+		display: inline-block;
+	}
+
+	.carousel-caption,
+	.carousel-indicators {
+		display: none;
+	}
+}
+
+@media (max-width: 767px) {
+	p {
+		font-size: 20px;
+	}
+
+	nav {
+		display: block;
+	}
+
+	.home {
+		display: block;
+	}
+
+	.welcome-info ul {
+		display: none;
+	}
+
+	.navbar-inverse {
+		background-color: transparent;
+	}
+
+	.navbar-inverse .navbar-brand {
+		display: none;
+	}
+
+	.navbar-collapse {
+	}
+
+	.navbar-inverse .navbar-nav>li>a {
+		font-size: 30px;
+		padding: 22px;
+		text-align: center;
+	}
+
+	#carousel {
+		display:none;
+	}
+
+	.welcome-info {
+		background-image: url('../img/home1.jpg');
+		position: static;
+		padding: 0;
+	}
+
+	.welcome-info-wrapper {
+		background-color: #fff;
+		opacity: 0.8;
+	}
+
+	.welcome-info-container {
+		margin-top: 0;
+		padding: 40px 10px;
+	}
+
+	.regular-header {
+		font-size: 80px;
+		top:20px;
+		position:static;
+		margin: 0 auto;
+		width:80%;
+		text-align: center;
+		}
+
+	.mobileImg {
+		display: block;
+	}
+	.welcome-info {
+		width:100%;
+		left:0;
+		top:0;
+		margin: 0;
+		position: static;
+	}
+
+	#oferta {
+		padding-top: 10px;
+	}
+
+	#oferta .top-subsection {
+		margin: 50px;
+	}
+
+	#oferta img {
+		width: 50%;
+	}
+
+	#oferta .subsection-header, #oferta .section-description {
+		width:80%;
+	}
+
+	.subsection-header,
+	.section-description {
+		text-align: center;
+	}
+
+	.tile {
+		padding: 0 50px 50px;
+		margin-bottom: 0;
+	}
+
+	.title-tile img {
+		display: none;
+	}
+
+	.title-tile h2 {
+		position: static;
+		margin: 60px auto 10px;
+	}
+
+	#realizacje .container ,#projekty .container {
+		margin: 20px auto 0;
+	}
+
+	.kontakt-wrapper {
+		margin-top: 50px;
+	}
+
+	.footer-copyright, .footer-social {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.social-icon {
+		float:none;
+	}
+
+	.social-icon-last {
+	margin-right:0;
+}
+
+}
+
+@media (max-width: 500px) {
+	#oferta .regular-header {
+		font-size: 50px;
+	}
+	.subsection-header {
+		font-size: 30px;
+	}
+	.regular-header {
+		font-size: 40px;
+	}
+}
+
+
+@media (min-width: 768px) {
+	.navbar-nav>li>a {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+}
